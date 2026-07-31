@@ -1,19 +1,61 @@
 aid: nanogrid
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nanogrid.png
 name: Nanogrid
-description: Nanogrid is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Nanogrid was an Oakland, California software startup founded in 2017 by Patrick
+  Sheehan (CEO), Jon McKay (Co-Founder & CPO), and Dan Lopuch (Co-Founder & CTO)
+  that built software to determine the value of residential solar, battery
+  storage, and electric vehicles for homeowners. Its platform simulated,
+  estimated, and optimized these distributed energy resources and captured the
+  operational synergies between the devices. A 500 Startups (500 Global) Batch 25
+  company, Nanogrid raised roughly $150K from 500 Global and Plug and Play Tech
+  Center before being acquired by clean-energy company Arcadia on April 22, 2021.
+  The company no longer operates independently and its nanogrid.tech domain no
+  longer resolves; this profile is retained in the API Evangelist network as a
+  historical portfolio-lead record. (Not to be confused with the separate
+  nanoGrid energy-data platform at nanogrid.com.)
 url: https://raw.githubusercontent.com/api-evangelist/nanogrid/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-defunct
+x-status: acquired
+x-acquired-by: arcadia
+x-acquired-date: '2021-04-22'
+x-founded: '2017'
+x-headquarters: Oakland, California, United States
+x-founders:
+- Patrick Sheehan
+- Jon McKay
+- Dan Lopuch
+x-defunct: true
+x-domain-status: nanogrid.tech does not resolve (DNS ENOTFOUND); www returns Cloudflare 530
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Energy
+- Solar
+- Battery Storage
+- Electric Vehicles
+- Distributed Energy Resources
+- Residential Energy
+- Clean Energy
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +65,10 @@ maintainers:
 common:
 - type: Website
   url: https://nanogrid.tech
+- type: GitHubOrganization
+  url: https://github.com/nanogrid
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
